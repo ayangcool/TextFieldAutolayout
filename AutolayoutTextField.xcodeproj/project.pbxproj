@@ -12,6 +12,9 @@
 		B30A27061D05922D0008D8CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B30A27051D05922D0008D8CC /* Assets.xcassets */; };
 		B30A27091D05922D0008D8CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B30A27071D05922D0008D8CC /* LaunchScreen.storyboard */; };
 		B30A27121D05924B0008D8CC /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B30A27111D05924B0008D8CC /* RootViewController.m */; };
+		B394F6721D05BCEC00C6E4E2 /* UIViewLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B394F6711D05BCEC00C6E4E2 /* UIViewLayoutVC.m */; };
+		B394F6751D05BD2A00C6E4E2 /* UITableViewLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B394F6741D05BD2A00C6E4E2 /* UITableViewLayoutVC.m */; };
+		B394F6781D05C1AD00C6E4E2 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B394F6771D05C1AD00C6E4E2 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,13 @@
 		B30A270A1D05922D0008D8CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B30A27101D05924B0008D8CC /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		B30A27111D05924B0008D8CC /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B394F6701D05BCEB00C6E4E2 /* UIViewLayoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewLayoutVC.h; sourceTree = "<group>"; };
+		B394F6711D05BCEC00C6E4E2 /* UIViewLayoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewLayoutVC.m; sourceTree = "<group>"; };
+		B394F6731D05BD2A00C6E4E2 /* UITableViewLayoutVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UITableViewLayoutVC.h; sourceTree = "<group>"; };
+		B394F6741D05BD2A00C6E4E2 /* UITableViewLayoutVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UITableViewLayoutVC.m; sourceTree = "<group>"; };
+		B394F6761D05C1AD00C6E4E2 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		B394F6771D05C1AD00C6E4E2 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		B394F6791D05C22F00C6E4E2 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +66,17 @@
 		B30A26FE1D05922D0008D8CC /* AutolayoutTextField */ = {
 			isa = PBXGroup;
 			children = (
+				B394F6791D05C22F00C6E4E2 /* Header.h */,
 				B30A27021D05922D0008D8CC /* AppDelegate.h */,
 				B30A27031D05922D0008D8CC /* AppDelegate.m */,
 				B30A27101D05924B0008D8CC /* RootViewController.h */,
 				B30A27111D05924B0008D8CC /* RootViewController.m */,
+				B394F6701D05BCEB00C6E4E2 /* UIViewLayoutVC.h */,
+				B394F6711D05BCEC00C6E4E2 /* UIViewLayoutVC.m */,
+				B394F6731D05BD2A00C6E4E2 /* UITableViewLayoutVC.h */,
+				B394F6741D05BD2A00C6E4E2 /* UITableViewLayoutVC.m */,
+				B394F6761D05C1AD00C6E4E2 /* TableViewCell.h */,
+				B394F6771D05C1AD00C6E4E2 /* TableViewCell.m */,
 				B30A27051D05922D0008D8CC /* Assets.xcassets */,
 				B30A27071D05922D0008D8CC /* LaunchScreen.storyboard */,
 				B30A270A1D05922D0008D8CC /* Info.plist */,
@@ -146,8 +163,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B30A27041D05922D0008D8CC /* AppDelegate.m in Sources */,
+				B394F6781D05C1AD00C6E4E2 /* TableViewCell.m in Sources */,
+				B394F6751D05BD2A00C6E4E2 /* UITableViewLayoutVC.m in Sources */,
 				B30A27011D05922D0008D8CC /* main.m in Sources */,
 				B30A27121D05924B0008D8CC /* RootViewController.m in Sources */,
+				B394F6721D05BCEC00C6E4E2 /* UIViewLayoutVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,6 +306,7 @@
 				B30A270F1D05922D0008D8CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
